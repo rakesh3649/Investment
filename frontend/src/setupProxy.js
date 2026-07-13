@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'http://localhost:5000',
+      target: 'https://investment-v9as.onrender.com',
       changeOrigin: true,
       logLevel: 'debug'
     })
