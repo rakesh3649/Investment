@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Use relative path when using proxy
-const API_URL = '/api';
+const API_URL = 'https://investment-v9as.onrender.com';
 
 const api = axios.create({
   baseURL: API_URL,
